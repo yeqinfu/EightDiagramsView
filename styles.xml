@@ -1,0 +1,25 @@
+<resources>
+    <style name="theme_default" parent="AppTheme" >
+        <item name="color_bkg_main">#000000</item>
+
+    </style>
+    <style name="theme_default2" parent="AppTheme" >
+        <item name="color_bkg_main">@color/colorAccent</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item  name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <declare-styleable name="EightDiagramsView">
+        <attr name="numberTextSize" format="dimension"/>
+        <attr name="textSize" format="dimension"/>
+        <attr name="colorfill" format="color"/>
+    </declare-styleable>
+
+</resources>
